@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/darshan_k_t/path_planning/teb_ws/devel/include/**",
+                "/home/darshan_k_t/docking_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/darshan_k_t/docking_ws/src/ar_track_alvar-kinetic-devel/ar_track_alvar/include/**",
+                "/home/darshan_k_t/path_planning/teb_ws/src/teb_local_planner-kinetic-devel/include/**",
+                "/home/darshan_k_t/docking_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+                "/home/darshan_k_t/docking_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+                "/home/darshan_k_t/docking_ws/src/turtlebot3_applications-master/turtlebot3_panorama/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

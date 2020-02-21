@@ -1,0 +1,7 @@
+<launch>
+	
+  	<!--- Run optimization test node -->
+   	<node pkg="teb_local_planner" type="cmd_vel_to_ackermann_drive.py" name="cmd_vel_to_ackermann_drive" output="screen" />
+
+  	
+</launch>

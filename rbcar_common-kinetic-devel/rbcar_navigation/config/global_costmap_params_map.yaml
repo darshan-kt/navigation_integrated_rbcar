@@ -1,0 +1,21 @@
+global_costmap:
+  global_frame: /map
+  robot_base_frame: /base_footprint
+  update_frequency: 5.0
+  enabled: true
+  # robot radius +safety_delta 0.25 + 0.02
+  # set to permit drawing a trajectory through the narrowest door
+  # inflation_radius: 0.5
+  plugins:
+  - {name: static_layer,        type: "costmap_2d::StaticLayer" }
+  - {name: obstacles,        type: "costmap_2d::VoxelLayer"}
+  - {name: inflation_layer,        type: "costmap_2d::InflationLayer" }
+  publish_frequency: 1.0
+
+  inflation_layer:
+    enabled: true
+    cost_scaling_factor: 0.0 # the lower, the more cost
+    inflation_radius: 0.1
+
+  static_map:
+    static_map: false 
