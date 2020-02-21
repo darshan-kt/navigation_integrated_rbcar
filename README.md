@@ -1,4 +1,4 @@
-# navigation_integrated_rabcar
+# navigation_integrated_rbcar
 This package includes rbcar metapackage and teb_local_planner
 
 
